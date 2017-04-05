@@ -42,6 +42,9 @@ if ! zgen saved; then
     # https://github.com/bhilburn/powerlevel9k
     #zgen load bhilburn/powerlevel9k powerlevel9k.zsh-theme
 
+    #zgen load KuoE0/oh-my-zsh-solarized-powerline-theme solarized-powerline.zsh-theme
+    #zgen load jeremyFreeAgent/oh-my-zsh-powerline-theme powerline.zsh-theme
+
     zgen save
 fi
 
