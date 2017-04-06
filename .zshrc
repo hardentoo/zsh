@@ -58,8 +58,16 @@ if [ -e ~/.zsh/.prompt ] ; then
 	. ~/.zsh/.prompt
 fi
 
+if [ -e ~/.zsh/.export ] ; then
+	. ~/.zsh/.export
+fi
+
 if [ -e ~/.zsh/.alias ] ; then
 	. ~/.zsh/.alias
+fi
+
+if [ -e ~/.zsh/.alias_local ] ; then
+	. ~/.zsh/.alias_local
 fi
 
 if [ -e ~/.zsh/.config ] ; then
