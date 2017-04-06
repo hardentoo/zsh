@@ -39,13 +39,13 @@ if ! zgen saved; then
     zgen load zsh-users/zsh-syntax-highlighting
     
     # Bug https://github.com/zsh-users/zsh-autosuggestions/issues/136
-    zgen load zsh-users/zsh-autosuggestions . develop
+    #zgen load zsh-users/zsh-autosuggestions . develop
 
     # https://github.com/Treri/fzf-zsh
     #zgen load Treri/fzf-zsh
 
     # https://github.com/bhilburn/powerlevel9k
-    zgen load bhilburn/powerlevel9k powerlevel9k.zsh-theme
+    #zgen load bhilburn/powerlevel9k powerlevel9k.zsh-theme
 
     #zgen load KuoE0/oh-my-zsh-solarized-powerline-theme solarized-powerline.zsh-theme
     #zgen load jeremyFreeAgent/oh-my-zsh-powerline-theme powerline.zsh-theme
